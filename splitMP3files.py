@@ -3,6 +3,10 @@
 
 #Split an MP3 into shorter clips in a sub folder. Retain file date modified properties.
 
+#For compatibility and backup purposes.
+#Draft version-- Documentation, codes style and refactoring are works in progress.
+
+
 #Output --creates a new folder, and mp3s in the new folder.
 #        Output files are from splitting the source file into clips with length given in seconds.
 #        Output files and folder retain the modification time of the source file.
@@ -11,8 +15,6 @@
 #                  location based on the source file
 #Input -- Prompt user to select one mp3 file from a folder.
 #Tested -- in python version python3.8
-#For compatibility and backup purposes.
-#Draft version-- Documentation, codes style and refactoring are works in progress.
 
 #notes before uploading to GitHub
 #     remove/refactor the line about sys variables  sys.path.insert since it links to an absolute path to my pip installation modules
