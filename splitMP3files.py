@@ -42,14 +42,7 @@ def open_file_dialog():
     # Print the selected file's path to the console
     if file_path:
         print("Selected file: " + os.path.basename(file_path) )
-        #recog_speech_to_console(file_path)
 
-        # Input MP3 file path
-
-        #extract filename from path
-        #inputmp3basename = os.path.basename(file_path)
-
-       
 
         # Output directory for the chunks
         output_dir = file_path + f"_{seconds}sec_clips"
